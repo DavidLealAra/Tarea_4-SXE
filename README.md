@@ -2650,6 +2650,6 @@ Para probar el PHP, colocaremos un archivo PHP en la raíz del documento por def
 ```bash
 echo "<?php phpinfo(); ?>" | tee /var/www/html/info.php
 ```
-Comprabacion:
+Comprobacion:
 
-![SXE tarea4](SXE tarea4.PNG)
+![SXEtarea4](SXEtarea4.PNG)
