@@ -6671,8 +6671,8 @@ define('LOGGED_IN_SALT',   'q( +KrE3@k61(O{Jyo+&=DuXyu<5x+HGW>1 b+9B0FFeE-0.dQFJ
 define('NONCE_SALT',       '@9|uoqd-K*u,ZkD 6TsdP#ar(H:2`Y^J/k(]$G{U*|=7QzQmtx;-jrwn)(:Qq!.{');
 ```
 Ahora toca configurar wordpress desde la pagina:
-![SXEtarea4](SXEtarea4(2).PNG)
-![SXEtarea4](SXEtarea4(3).PNG)
+![SXEtarea4(2)](SXEtarea4(2).PNG)
+![SXEtarea4(3)](SXEtarea4(3).PNG)
 
 
 
