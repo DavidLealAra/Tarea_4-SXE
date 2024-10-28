@@ -8,11 +8,16 @@ sudo docker run -d --name dam_lamp -p 8000:80 -it ubuntu:22.04
 ```
 Salida:
 
-57590e1292d30f2f0f8fd4faf4e347998486b71eff63cce368ad64c4e15c3e27
+Unable to find image 'ubuntu:22.04' locally
+22.04: Pulling from library/ubuntu
+6414378b6477: Pull complete 
+Digest: sha256:0e5e4a57c2499249aafc3b40fcd541e9a456aab7296681a3994d631587203f97
+Status: Downloaded newer image for ubuntu:22.04
+f93e23894c77837517a8af46183cbacc90a3dba6eb373fc2d34843a144b1d2cc
 
 Y nos metemos dentro:
 ```bash
-sudo docker exec -it dam-lamp sh
+sudo docker exec -it dam_lamp sh
 ```
 Sin salida.
 
@@ -6576,8 +6581,8 @@ a2dissite 000-default
 ```
 Finalmente, recarga apache2 para aplicar todos estos cambios:
 ```bash
-sudo service apache2 reload
-sudo service apache2 restart
+service apache2 reload
+service apache2 restart
 ```
 Configurar la base de datos
 
@@ -6665,6 +6670,8 @@ define('SECURE_AUTH_SALT', 'It-|-evx/slN:jYj?`C)ZIgd5_,q-><|k_4vVR3r-4$ :C+6C;K+
 define('LOGGED_IN_SALT',   'q( +KrE3@k61(O{Jyo+&=DuXyu<5x+HGW>1 b+9B0FFeE-0.dQFJn|k(-iH72IeH');
 define('NONCE_SALT',       '@9|uoqd-K*u,ZkD 6TsdP#ar(H:2`Y^J/k(]$G{U*|=7QzQmtx;-jrwn)(:Qq!.{');
 ```
+Ahora toca configurar wordpress desde la pagina:
+
 
 
 
